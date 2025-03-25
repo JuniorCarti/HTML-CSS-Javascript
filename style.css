@@ -1,5 +1,36 @@
-div{
-    border: 2px solid;
-    height: 75px;
-    overflow: hidden;
+/* Selector 1: Class Selector */
+.heading {
+    color: hsl(204, 70%, 53%);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-size: 50px;
+}
+
+
+/* Selector 2: ID Selector */
+#content-box {
+    background-color: silver;
+    border: 3px solid palevioletred;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+/* Selector 3: Element Selector */
+p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Styling an image */
+.styled-image {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+    margin: 20px auto;
 }
