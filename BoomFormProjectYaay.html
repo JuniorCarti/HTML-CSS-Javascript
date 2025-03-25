@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Form Project</title>
+    </head>
+    <body>
+        <form action="index.php" method="POST" enctype="multipart/form-data">
+            <label for="Username">Username:</label>
+            <input type="text" id="Username" placeholder="BradeGR45355" minlength="6" maxlength="15" required>
+            <br><br>
+            <label for="Password">Password:</label>
+            <input type="Password" id="Password" minlength="4" maxlength="64" required>
+            <br><br>
+            <label for="Email">Email:</label>
+            <input type="Email" id="Email" placeholder="userabc@gmail.com" required>
+            <br><br>
+            <label for="Phone">Phone:</label>
+            <input type="tel" id="Phone" placeholder="072-345-6578" pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+            <br><br>
+
+            <label for="BirthDay">Date of Birth:</label>
+            <input type="date" id="BirthDay">
+            <br><br>
+
+            <label for="Quantity">Quantity:</label>
+            <input type="number" id="Quantity" min="0" maxlength="99" value="1">
+
+            <br><br>
+
+            <label for="Mr">Mr</label>
+            <input type="radio" id="Mr" value="Mr" name="title">
+            <label for="Ms">Ms.</label>
+            <input type="radio" id="Ms" value="Ms" name="title">
+            <label for="Eng">Eng.</label>
+            <input type="radio" id="Eng" value="Eng" name="title">
+
+            <br><br>
+
+            <label for="Payment">Payment</label>
+            <select id="Payment">
+                <option value="Visa Card">Visa Card</option>
+                <option value="Mpesa">Mpesa</option>
+                <option value="Steam Card">Steam Card</option>
+                <option value="Paypal">Paypal</option>
+            </select>
+
+            <br><br>
+
+            <label for="Subscribe">Subscribe</label>
+            <input type="checkbox" id="Subscribe">
+
+            <label for="Comment">Comment</label>
+            <textarea id="Comment" rows="3" cols="25"></textarea>
+
+            <br><br>
+
+            <label for="File">File</label>
+            <input type="file" id="File" accept="image/png,image/jpeg">
+
+
+
+
+
+            <input type="reset">
+            <br><br>
+            <input type="submit">
+           
+
+        </form>
+    </body>
+</html>
